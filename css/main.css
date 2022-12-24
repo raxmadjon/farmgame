@@ -1,0 +1,217 @@
+@font-face{
+    font-family: monserratbold;
+    src: url('../Montserrat-Bold.ttf');
+}
+@font-face{
+    font-family: monserratmedium;
+    src: url('../Montserrat-Medium.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: monserratmedium;
+    font-family: monserratbold;
+}
+body{
+
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background: #FDFCEF;
+}
+.big-conteyner{
+    max-width: 1110px;
+    padding: 60px 0 0 0;
+    margin: 0 auto;
+}
+.farmgame-icon{
+    display: flex;
+}
+.text-icon{
+    font-size: 25px;
+}
+.conteyner-caw-text{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 120px auto;
+    gap: 100px;
+    
+}
+.text-caw{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.big{
+    width: 350px;
+    font-size: 50px;
+}
+.mini{
+    width: 300px;
+    font-size: 18px;
+}
+.butoon-play{
+    background-color: #FF6861;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 227px;
+    height: 69px;
+    font-size: 18px;
+    color: #fff;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+.search-text-big{
+    font-size: 40px;
+    margin-bottom:  70px ;
+}
+.search-mini-text{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    
+}
+
+.big-text{
+    font-size: 30px;
+}
+.mini-text{
+    font-size: 18px;
+}
+.search-me{
+    display: flex;
+    gap: 11px;
+}
+.img{
+    margin-right: 34px;
+}
+.text-bag{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.conteyner-bag-text{
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    padding: 70px 100px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.text-footer{
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
+@media (max-width: 1199px){
+    .big-conteyner{
+        max-width: 960px;
+    }
+    .text-footer{
+        margin: 120px 200px;
+    }
+    .conteyner-bag-text{
+        
+        gap: 65px;
+        width: 960px;
+    }
+}
+@media (max-width: 991px) {
+    .big-conteyner{
+        max-width: 720px;
+    }
+    .conteyner-caw-text{
+        flex-direction: column-reverse;
+        gap: 51px;
+        
+        
+    }
+   
+    .conteyner-bag-text{
+        flex-direction: column-reverse;
+        gap: 51px;
+        width: 720px;
+    }
+    .farmgame-icon{
+        justify-content: center;
+    }
+    .text-caw{
+        align-items: center;
+        text-align: center;
+    }
+    .text-bag{
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .text-caw{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 34px;
+    }
+    #caw{
+        width: 320px;
+    }
+    #bag{
+        width: 201px;
+    }
+    .text-bag{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 34px;
+        
+    }
+    .conteyner-bag-text{
+        padding: 70px 260px;
+        
+    }
+    .conteyner-caw-text{
+        padding: 70px 200px;
+        
+    }
+    .search-me{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .text{
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+    }
+    .img{
+        width: 70px;
+        margin: 0 150px;
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        margin-top: 120px;
+    }
+}
